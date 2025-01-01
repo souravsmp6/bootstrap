@@ -3,19 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vivo X200 - Next Gen Smartphone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .feature-icon {
+            font-size: 2rem;
+            color: #2d5aff;
+        }
+        .spec-label {
+            font-weight: 600;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <header>
-      <div class="bg-light p-5 rounded-lg m-3">
-        <h1 class="display-4">Welcome to My Website!</h1>
-        <p class="lead">This is a simple hero section to showcase your amazing project or message.</p>
-        <hr class="my-4">
-        <p>Click the button below to learn more.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
-      </div>
-    </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-  
+    <!-- Hero Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-bold">Vivo X200</h1>
+                    <p class="lead">Experience the future of mobile photography</p>
+                    <h2 class="display-6 text-primary">$699</h2>
+                    <button class="btn btn-primary btn-lg mt-3">Buy Now</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="/api/placeholder/500/500" alt="Vivo X200" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Key Features -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-camera feature-icon mb-3"></i>
+                    <h3>50MP Camera</h3>
+                    <p>Professional-grade photography with AI enhancement</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-battery-full feature-icon mb-3"></i>
+                    <h3>5000mAh Battery</h3>
+                    <p>120W Flash Charge technology</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-microchip feature-icon mb-3"></i>
+                    <h3>Dimensity 9300</h3>
+                    <p>Next-gen performance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Specifications -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Specifications</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Display</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><span class="spec-label">Size:</span> 6.78" AMOLED</li>
+                            <li class="mb-2"><span class="spec-label">Resolution:</span> 2800 x 1260</li>
+                            <li class="mb-2"><span class="spec-label">Refresh Rate:</span> 120Hz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Performance</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><span class="spec-label">Processor:</span> Dimensity 9300</li>
+                            <li class="mb-2"><span class="spec-label">RAM:</span> 12GB/16GB</li>
+                            <li class="mb-2"><span class="spec-label">Storage:</span> 256GB/512GB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Color Options -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Available Colors</h2>
+        <div class="row justify-content-center g-4">
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <div style="height: 100px; background-color: #000000;"></div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cosmic Black</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <div style="height: 100px; background-color: #4169E1;"></div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ocean Blue</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Purchase Section -->
+    <div class="container my-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h3>Vivo X200 - 12GB + 256GB</h3>
+                        <p class="lead mb-0">Starting from $699</p>
+                    </div>
+                    <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                        <button class="btn btn-primary btn-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
